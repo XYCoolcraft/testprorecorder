@@ -1,0 +1,370 @@
+{
+  "locale": "en_US",
+  "switchLabel": "Bahasa Indonesia",
+  "skip": "Skip to content",
+  "meta": {
+    "title": "ProRec – Free Screen Recorder for Windows (No Watermark)",
+    "description": "Free Windows screen recorder: up to 60 FPS, no watermark, webcam, system audio & mic, and a control panel that stays out of your video. Offline.",
+    "keywords": "screen recorder, free screen recorder, Windows screen recorder, screen recording software, record screen with audio, webcam overlay, no watermark, record gameplay, tutorial recorder, XYCoolcraft, ProRec",
+    "ogTitle": "ProRec – Free Screen Recorder for Windows",
+    "ogDescription": "Up to 60 FPS, no watermark, webcam, system audio & mic — and a control panel that never appears in your video."
+  },
+  "nav": {
+    "features": "Features",
+    "preview": "Preview",
+    "proof": "Trust",
+    "compare": "Compare",
+    "download": "Download",
+    "faq": "FAQ",
+    "community": "Community",
+    "menu": "Menu"
+  },
+  "cta": {
+    "download": "Download for Windows",
+    "preview": "See it in action"
+  },
+  "hero": {
+    "eyebrow": "Free • Windows 10/11 • by XYCoolcraft",
+    "title_html": "The screen recorder that <em>stays out of your video</em>",
+    "sub": "ProRec captures your screen, a window, your webcam, system audio and microphone at up to 60 FPS in sharp H.264 — with a floating control panel you can see and your viewers can’t. Light on the CPU, works over Remote Desktop and on PCs without a GPU, and runs fully offline.",
+    "badges": [
+      "Free forever",
+      "No watermark",
+      "No telemetry or ads",
+      "Works offline",
+      "5 languages"
+    ],
+    "chips": [
+      "Up to 60 FPS",
+      "H.264 · MP4 / MKV",
+      "Hidden panel"
+    ],
+    "alt": "ProRec recording screen with mode selection, timer and the red record button"
+  },
+  "stats": [
+    {
+      "v": "60",
+      "l": "FPS maximum"
+    },
+    {
+      "v": "5",
+      "l": "languages built in"
+    },
+    {
+      "v": "0",
+      "l": "ads or telemetry"
+    },
+    {
+      "v": "100%",
+      "l": "works offline"
+    }
+  ],
+  "features": {
+    "title": "Everything you need to record. Nothing you don’t.",
+    "sub": "Built for tutorials, gameplay, meetings and support videos.",
+    "items": [
+      {
+        "icon": "monitor",
+        "title": "Screen, area or window",
+        "text": "Record one monitor, all monitors, a dragged area or a single app window. Reuse your last area in one click."
+      },
+      {
+        "icon": "shield",
+        "title": "A control panel that is never recorded",
+        "text": "A floating panel with timer, pause and screenshot is visible only to you. It is excluded from the capture itself (Windows 10 2004+), so your video stays clean."
+      },
+      {
+        "icon": "pointer",
+        "title": "Real cursor, clear clicks",
+        "text": "The cursor keeps its true Windows shape. Add a highlight, click rings (left red, right blue) and a spotlight that dims everything else."
+      },
+      {
+        "icon": "mic",
+        "title": "System audio + microphone",
+        "text": "Capture what you hear and what you say, with separate volume sliders and device pickers."
+      },
+      {
+        "icon": "camera",
+        "title": "Webcam, key presses, watermark",
+        "text": "Add a round or rectangular webcam, show the keys you press for tutorials, and optionally stamp your own text."
+      },
+      {
+        "icon": "layers",
+        "title": "Sharp H.264, small files",
+        "text": "x264 encoding from small to near-lossless, accurate BT.709 colours, up to 60 FPS, saved as MP4 or MKV."
+      },
+      {
+        "icon": "cpu",
+        "title": "Light on your PC",
+        "text": "GDI capture and CPU encoding: no GPU needed and it works over Remote Desktop. Choose a lighter speed for older machines."
+      },
+      {
+        "icon": "scissors",
+        "title": "Built-in tools",
+        "text": "Trim, compress to 720p, make a GIF or extract the audio from any recording — right from the History tab."
+      },
+      {
+        "icon": "clock",
+        "title": "Presets, schedule, auto-stop",
+        "text": "Tutorial, Gaming, Low CPU and Max quality presets. Schedule a start time and set an automatic stop."
+      }
+    ]
+  },
+  "preview": {
+    "title": "See the real app",
+    "sub": "These are real screenshots of ProRec, not mock-ups.",
+    "tabs": [
+      {
+        "key": "rec",
+        "label": "Record",
+        "alt": "ProRec recording screen with modes, presets, timer and record button",
+        "caption": "Pick a mode and a preset, then press the red button or F9."
+      },
+      {
+        "key": "set",
+        "label": "Settings",
+        "alt": "ProRec settings for video quality, FPS, resolution and format",
+        "caption": "Quality, FPS, scale, format, countdown and auto-stop — saved automatically."
+      },
+      {
+        "key": "overlay",
+        "label": "Overlay",
+        "alt": "ProRec webcam, key press and watermark overlay settings",
+        "caption": "Webcam picture-in-picture, key presses and watermark."
+      },
+      {
+        "key": "hist",
+        "label": "History",
+        "alt": "ProRec history with play, folder, tools and delete buttons",
+        "caption": "Play, reveal, trim, compress, make a GIF or extract audio."
+      },
+      {
+        "key": "about",
+        "label": "About",
+        "alt": "ProRec about page with official links and features",
+        "caption": "Official links, license notices and update check."
+      }
+    ],
+    "splashTitle": "A startup worth watching",
+    "splashText": "A smooth animated splash with a short chime — optional, and skippable with a click.",
+    "splashAlt": "ProRec animated startup screen: a red ring draws itself around the record dot"
+  },
+  "proof": {
+    "title": "Transparent and easy to verify",
+    "sub": "Trust should be checkable. Here is how you can check ProRec yourself.",
+    "items": [
+      {
+        "icon": "hash",
+        "title": "Verify every download",
+        "text": "Each release lists its SHA-256 checksum. Compare it with the file you downloaded before you run it."
+      },
+      {
+        "icon": "eyeoff",
+        "title": "No telemetry, no ads",
+        "text": "ProRec collects nothing and sends nothing. The only network request is the optional “Check for updates” button."
+      },
+      {
+        "icon": "box",
+        "title": "Open components, clearly listed",
+        "text": "Built on FFmpeg, x264, Python, NumPy and Pillow. Every third-party license is listed, and the FFmpeg build recipe is public."
+      },
+      {
+        "icon": "file",
+        "title": "A plain-language license",
+        "text": "Free for personal and commercial use. The license is shown in your language during setup."
+      }
+    ],
+    "checksumTitle": "SHA-256 checksum",
+    "checksumHow": "To verify on Windows, open Command Prompt and run:",
+    "checksumEmpty": "The checksum appears here as soon as the installer is published.",
+    "copy": "Copy",
+    "copied": "Copied!"
+  },
+  "compare": {
+    "title": "How ProRec compares",
+    "sub": "Against typical paid screen recorders.",
+    "colFeature": "Feature",
+    "colA": "ProRec",
+    "colB": "Typical paid recorders",
+    "rows": [
+      {
+        "label": "Price",
+        "a": "Free, forever",
+        "b": "Licence or subscription",
+        "aOk": true,
+        "bOk": false
+      },
+      {
+        "label": "Watermark on recordings",
+        "a": "None",
+        "b": "Common in free / trial versions",
+        "aOk": true,
+        "bOk": false
+      },
+      {
+        "label": "Control panel hidden from the recording",
+        "a": "Yes",
+        "b": "Often not available",
+        "aOk": true,
+        "bOk": false
+      },
+      {
+        "label": "Webcam and key-press overlay",
+        "a": "Included",
+        "b": "Sometimes in a paid plan",
+        "aOk": true,
+        "bOk": false
+      },
+      {
+        "label": "Works over RDP / without a GPU",
+        "a": "Yes (GDI + x264)",
+        "b": "Varies by product",
+        "aOk": true,
+        "bMid": true
+      },
+      {
+        "label": "Telemetry and ads",
+        "a": "None",
+        "b": "Varies by product",
+        "aOk": true,
+        "bMid": true
+      },
+      {
+        "label": "Languages",
+        "a": "5 built in",
+        "b": "Varies by product",
+        "aOk": true,
+        "bMid": true
+      }
+    ],
+    "note": "A general comparison; individual products differ. Please check each product’s current terms."
+  },
+  "download": {
+    "title": "Download ProRec",
+    "sub": "Free for Windows 10 and 11 (64-bit). The installer contains all 5 languages and works offline.",
+    "button": "Download for Windows",
+    "portable": "Portable ZIP",
+    "langs": "5 languages",
+    "osNote": "ProRec is for Windows 10/11 — open this page on a Windows PC to install it.",
+    "stepsTitle": "Install in 3 steps",
+    "steps": [
+      {
+        "title": "Download",
+        "text": "Get the installer with the button above."
+      },
+      {
+        "title": "Choose your language",
+        "text": "The setup wizard asks first, then shows the license and the disk space needed."
+      },
+      {
+        "title": "Press F9",
+        "text": "Start recording. Change everything later in Settings."
+      }
+    ],
+    "smartTitle": "Seeing a Windows SmartScreen warning?",
+    "smartText": "New apps without a paid code-signing certificate can trigger “Windows protected your PC”. Confirm that the SHA-256 above matches your file, then choose More info → Run anyway.",
+    "specsTitle": "System requirements",
+    "specs": [
+      {
+        "k": "System",
+        "v": "Windows 10 (64-bit) or Windows 11"
+      },
+      {
+        "k": "Processor",
+        "v": "64-bit dual-core CPU (no GPU required)"
+      },
+      {
+        "k": "Memory",
+        "v": "4 GB RAM"
+      },
+      {
+        "k": "Disk space",
+        "v": "About 100 MB for the app, plus space for your videos"
+      },
+      {
+        "k": "Hidden control panel",
+        "v": "Windows 10 version 2004 (build 19041) or later"
+      },
+      {
+        "k": "Internet",
+        "v": "Not required"
+      }
+    ],
+    "changelogTitle": "What’s new",
+    "changelog": [
+      {
+        "ver": "2.1.0",
+        "date": "2026-10-12",
+        "points_html": "New: 5 languages in the app and the installer<br>New: scheduled recording, presets, spotlight, webcam via FFmpeg<br>New: trim / compress / GIF / audio tools<br>Fix: “Not Responding” when choosing the save folder<br>Fix: resizable window and an interface-size setting<br>Much smaller: no OpenCV and a slim FFmpeg build"
+      },
+      {
+        "ver": "2.0.0",
+        "date": "2026-10-11",
+        "points_html": "Redesigned interface and animated startup<br>Hidden floating panel, webcam, key-press and watermark overlays"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "sub": "Short, honest answers.",
+    "items": [
+      {
+        "q": "Is ProRec really free?",
+        "a": "Yes. ProRec is freeware: free for personal, educational and commercial use, with no watermark, no ads and no time limit."
+      },
+      {
+        "q": "Is it safe to install?",
+        "a": "ProRec has no telemetry and its components are listed publicly. Because it is a new app without a paid code-signing certificate, Windows SmartScreen may show a warning. Verify the SHA-256 checksum on this page, then choose More info → Run anyway."
+      },
+      {
+        "q": "Can it record games?",
+        "a": "ProRec uses GDI capture, so some exclusive-fullscreen DirectX/OpenGL games may record as a black screen. Run the game in windowed or borderless mode, or record that window. Desktop apps, browsers, Office and Remote Desktop sessions work fine."
+      },
+      {
+        "q": "Does it work over Remote Desktop or without a GPU?",
+        "a": "Yes. Capture uses GDI and encoding runs on the CPU. Do not minimise or disconnect the RDP window while recording, and enable Remote Audio if you want sound."
+      },
+      {
+        "q": "Why can’t I see the control panel in my video?",
+        "a": "The floating panel is excluded from screen capture by Windows itself (Windows 10 version 2004 or later). On older versions ProRec turns the panel off and you can use hotkeys instead."
+      },
+      {
+        "q": "Does it need an internet connection?",
+        "a": "No. The installer includes every language and the app works offline. The only network request is the optional “Check for updates” button."
+      },
+      {
+        "q": "How do I verify my download?",
+        "a": "Open Command Prompt and run certutil -hashfile on the installer with SHA256, then compare the result with the checksum shown on this page."
+      },
+      {
+        "q": "How do I change the language?",
+        "a": "You choose it at the start of the installer. Later, open Settings → Language: English, Bahasa Indonesia, Español, Français or 日本語."
+      },
+      {
+        "q": "Where are my videos saved?",
+        "a": "In Videos\\ProRec by default. You can change the folder in Settings → Storage."
+      },
+      {
+        "q": "Is there a version for Mac or Linux?",
+        "a": "Not at the moment. ProRec is built for Windows 10 and 11 (64-bit)."
+      }
+    ]
+  },
+  "community": {
+    "title": "Official channels",
+    "sub": "Follow ProRec and XYCoolcraft only through the accounts below.",
+    "text": "This website is the official home of ProRec. Download the installer only from this page or from the linked GitHub Releases page.",
+    "note": "Beware of copies on third-party download sites — they may be outdated or modified."
+  },
+  "footer": {
+    "tagline": "Free screen recorder for Windows.",
+    "rights": "XYCoolcraft. ProRec is freeware. All trademarks belong to their respective owners.",
+    "license": "License",
+    "notices": "Third-party notices"
+  },
+  "notfound": {
+    "title": "Page not found",
+    "text": "The page you are looking for does not exist or has moved.",
+    "back": "Back to ProRec"
+  }
+}

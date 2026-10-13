@@ -1,0 +1,370 @@
+{
+  "locale": "id_ID",
+  "switchLabel": "English",
+  "skip": "Lompat ke konten",
+  "meta": {
+    "title": "ProRec – Perekam Layar Gratis untuk Windows (Tanpa Watermark)",
+    "description": "Perekam layar gratis untuk Windows: hingga 60 FPS, tanpa watermark, webcam, audio sistem & mikrofon, panel kontrol yang tidak ikut terekam. Offline.",
+    "keywords": "perekam layar, screen recorder gratis, rekam layar windows, aplikasi rekam layar, rekam layar tanpa watermark, rekam layar dengan suara, rekam webcam, aplikasi tutorial, XYCoolcraft, ProRec",
+    "ogTitle": "ProRec – Perekam Layar Gratis untuk Windows",
+    "ogDescription": "Hingga 60 FPS, tanpa watermark, webcam, audio sistem & mikrofon — dan panel kontrol yang tidak pernah muncul di video Anda."
+  },
+  "nav": {
+    "features": "Fitur",
+    "preview": "Preview",
+    "proof": "Bukti",
+    "compare": "Bandingkan",
+    "download": "Unduh",
+    "faq": "FAQ",
+    "community": "Komunitas",
+    "menu": "Menu"
+  },
+  "cta": {
+    "download": "Unduh untuk Windows",
+    "preview": "Lihat cara kerjanya"
+  },
+  "hero": {
+    "eyebrow": "Gratis • Windows 10/11 • oleh XYCoolcraft",
+    "title_html": "Perekam layar gratis yang <em>tidak ikut terekam</em>",
+    "sub": "ProRec merekam layar, jendela, webcam, audio sistem, dan mikrofon hingga 60 FPS dengan H.264 yang tajam — lengkap dengan panel kontrol mengambang yang terlihat oleh Anda tetapi tidak oleh penonton. Ringan di CPU, jalan di Remote Desktop dan PC tanpa GPU, serta sepenuhnya offline.",
+    "badges": [
+      "Gratis selamanya",
+      "Tanpa watermark",
+      "Tanpa telemetri & iklan",
+      "Bisa offline",
+      "5 bahasa"
+    ],
+    "chips": [
+      "Hingga 60 FPS",
+      "H.264 · MP4 / MKV",
+      "Panel tersembunyi"
+    ],
+    "alt": "Layar rekam ProRec dengan pilihan mode, timer, dan tombol rekam merah"
+  },
+  "stats": [
+    {
+      "v": "60",
+      "l": "FPS maksimum"
+    },
+    {
+      "v": "5",
+      "l": "bahasa bawaan"
+    },
+    {
+      "v": "0",
+      "l": "iklan atau telemetri"
+    },
+    {
+      "v": "100%",
+      "l": "bisa offline"
+    }
+  ],
+  "features": {
+    "title": "Semua yang Anda butuhkan untuk merekam. Tanpa yang tidak perlu.",
+    "sub": "Dibuat untuk tutorial, gameplay, rapat, dan video bantuan.",
+    "items": [
+      {
+        "icon": "monitor",
+        "title": "Layar, area, atau jendela",
+        "text": "Rekam satu monitor, semua monitor, area yang Anda seret, atau satu jendela aplikasi. Pakai ulang area terakhir dengan satu klik."
+      },
+      {
+        "icon": "shield",
+        "title": "Panel kontrol yang tidak pernah terekam",
+        "text": "Panel mengambang berisi timer, pause, dan screenshot hanya terlihat oleh Anda. Panel dikecualikan dari proses penangkapan layar itu sendiri (Windows 10 2004+), sehingga video tetap bersih."
+      },
+      {
+        "icon": "pointer",
+        "title": "Kursor asli, klik yang jelas",
+        "text": "Kursor tetap berbentuk asli Windows. Tambahkan highlight, cincin klik (kiri merah, kanan biru), dan spotlight yang meredupkan area lain."
+      },
+      {
+        "icon": "mic",
+        "title": "Audio sistem + mikrofon",
+        "text": "Rekam apa yang Anda dengar dan ucapkan, dengan slider volume dan pilihan perangkat yang terpisah."
+      },
+      {
+        "icon": "camera",
+        "title": "Webcam, tombol keyboard, watermark",
+        "text": "Tambahkan webcam bulat atau persegi, tampilkan tombol yang Anda tekan untuk tutorial, dan bubuhkan teks sendiri bila perlu."
+      },
+      {
+        "icon": "layers",
+        "title": "H.264 tajam, file kecil",
+        "text": "Encoding x264 dari ukuran kecil sampai hampir lossless, warna BT.709 akurat, hingga 60 FPS, disimpan sebagai MP4 atau MKV."
+      },
+      {
+        "icon": "cpu",
+        "title": "Ringan untuk PC Anda",
+        "text": "Penangkapan GDI dan encoding CPU: tidak butuh GPU dan berjalan di Remote Desktop. Pilih kecepatan lebih ringan untuk PC lama."
+      },
+      {
+        "icon": "scissors",
+        "title": "Alat bawaan",
+        "text": "Potong, kompres ke 720p, buat GIF, atau ambil audio dari rekaman mana pun — langsung dari tab Riwayat."
+      },
+      {
+        "icon": "clock",
+        "title": "Preset, jadwal, berhenti otomatis",
+        "text": "Preset Tutorial, Game, Hemat CPU, dan Kualitas maks. Jadwalkan waktu mulai dan atur berhenti otomatis."
+      }
+    ]
+  },
+  "preview": {
+    "title": "Lihat aplikasi aslinya",
+    "sub": "Ini tangkapan layar ProRec yang sebenarnya, bukan mock-up.",
+    "tabs": [
+      {
+        "key": "rec",
+        "label": "Rekam",
+        "alt": "Layar rekam ProRec dengan mode, preset, timer, dan tombol rekam",
+        "caption": "Pilih mode dan preset, lalu tekan tombol merah atau F9."
+      },
+      {
+        "key": "set",
+        "label": "Pengaturan",
+        "alt": "Pengaturan ProRec untuk kualitas video, FPS, resolusi, dan format",
+        "caption": "Kualitas, FPS, skala, format, hitung mundur, dan berhenti otomatis — tersimpan otomatis."
+      },
+      {
+        "key": "overlay",
+        "label": "Overlay",
+        "alt": "Pengaturan overlay webcam, tombol keyboard, dan watermark ProRec",
+        "caption": "Webcam picture-in-picture, tombol keyboard, dan watermark."
+      },
+      {
+        "key": "hist",
+        "label": "Riwayat",
+        "alt": "Riwayat ProRec dengan tombol putar, folder, alat, dan hapus",
+        "caption": "Putar, buka lokasi, potong, kompres, buat GIF, atau ambil audio."
+      },
+      {
+        "key": "about",
+        "label": "Tentang",
+        "alt": "Halaman Tentang ProRec dengan tautan resmi dan fitur",
+        "caption": "Tautan resmi, pemberitahuan lisensi, dan cek pembaruan."
+      }
+    ],
+    "splashTitle": "Startup yang enak ditonton",
+    "splashText": "Splash beranimasi yang halus dengan nada singkat — opsional, dan bisa dilewati dengan satu klik.",
+    "splashAlt": "Layar startup ProRec beranimasi: cincin merah menggambar dirinya di sekeliling titik rekam"
+  },
+  "proof": {
+    "title": "Transparan dan mudah diverifikasi",
+    "sub": "Kepercayaan harus bisa dicek. Begini cara memeriksa ProRec sendiri.",
+    "items": [
+      {
+        "icon": "hash",
+        "title": "Verifikasi setiap unduhan",
+        "text": "Setiap rilis mencantumkan checksum SHA-256. Bandingkan dengan file yang Anda unduh sebelum menjalankannya."
+      },
+      {
+        "icon": "eyeoff",
+        "title": "Tanpa telemetri, tanpa iklan",
+        "text": "ProRec tidak mengumpulkan dan tidak mengirim apa pun. Satu-satunya permintaan jaringan adalah tombol opsional “Cek pembaruan”."
+      },
+      {
+        "icon": "box",
+        "title": "Komponen terbuka, tercantum jelas",
+        "text": "Dibangun di atas FFmpeg, x264, Python, NumPy, dan Pillow. Semua lisensi pihak ketiga dicantumkan, dan resep build FFmpeg dibuka untuk umum."
+      },
+      {
+        "icon": "file",
+        "title": "Lisensi berbahasa sederhana",
+        "text": "Gratis untuk penggunaan pribadi dan komersial. Lisensi ditampilkan dalam bahasa Anda saat instalasi."
+      }
+    ],
+    "checksumTitle": "Checksum SHA-256",
+    "checksumHow": "Untuk memverifikasi di Windows, buka Command Prompt lalu jalankan:",
+    "checksumEmpty": "Checksum akan tampil di sini segera setelah installer dipublikasikan.",
+    "copy": "Salin",
+    "copied": "Tersalin!"
+  },
+  "compare": {
+    "title": "Perbandingan ProRec",
+    "sub": "Dibanding perekam layar berbayar pada umumnya.",
+    "colFeature": "Fitur",
+    "colA": "ProRec",
+    "colB": "Perekam berbayar umumnya",
+    "rows": [
+      {
+        "label": "Harga",
+        "a": "Gratis selamanya",
+        "b": "Lisensi atau langganan",
+        "aOk": true,
+        "bOk": false
+      },
+      {
+        "label": "Watermark pada hasil rekaman",
+        "a": "Tidak ada",
+        "b": "Umum di versi gratis / trial",
+        "aOk": true,
+        "bOk": false
+      },
+      {
+        "label": "Panel kontrol tersembunyi dari rekaman",
+        "a": "Ya",
+        "b": "Sering tidak tersedia",
+        "aOk": true,
+        "bOk": false
+      },
+      {
+        "label": "Overlay webcam dan tombol keyboard",
+        "a": "Termasuk",
+        "b": "Kadang di paket berbayar",
+        "aOk": true,
+        "bOk": false
+      },
+      {
+        "label": "Jalan di RDP / tanpa GPU",
+        "a": "Ya (GDI + x264)",
+        "b": "Tergantung produk",
+        "aOk": true,
+        "bMid": true
+      },
+      {
+        "label": "Telemetri dan iklan",
+        "a": "Tidak ada",
+        "b": "Tergantung produk",
+        "aOk": true,
+        "bMid": true
+      },
+      {
+        "label": "Bahasa",
+        "a": "5 bahasa bawaan",
+        "b": "Tergantung produk",
+        "aOk": true,
+        "bMid": true
+      }
+    ],
+    "note": "Perbandingan umum; setiap produk berbeda. Silakan periksa ketentuan terbaru masing-masing produk."
+  },
+  "download": {
+    "title": "Unduh ProRec",
+    "sub": "Gratis untuk Windows 10 dan 11 (64-bit). Installer berisi semua 5 bahasa dan bisa dipakai offline.",
+    "button": "Unduh untuk Windows",
+    "portable": "ZIP portabel",
+    "langs": "5 bahasa",
+    "osNote": "ProRec untuk Windows 10/11 — buka halaman ini di PC Windows untuk memasangnya.",
+    "stepsTitle": "Pasang dalam 3 langkah",
+    "steps": [
+      {
+        "title": "Unduh",
+        "text": "Ambil installer dengan tombol di atas."
+      },
+      {
+        "title": "Pilih bahasa",
+        "text": "Wizard setup menanyakannya lebih dulu, lalu menampilkan lisensi dan ruang disk yang dibutuhkan."
+      },
+      {
+        "title": "Tekan F9",
+        "text": "Mulai merekam. Ubah semuanya nanti di Pengaturan."
+      }
+    ],
+    "smartTitle": "Muncul peringatan Windows SmartScreen?",
+    "smartText": "Aplikasi baru tanpa sertifikat code-signing berbayar bisa memicu “Windows protected your PC”. Pastikan SHA-256 di atas cocok dengan file Anda, lalu pilih More info → Run anyway.",
+    "specsTitle": "Persyaratan sistem",
+    "specs": [
+      {
+        "k": "Sistem",
+        "v": "Windows 10 (64-bit) atau Windows 11"
+      },
+      {
+        "k": "Prosesor",
+        "v": "CPU dual-core 64-bit (tanpa GPU pun bisa)"
+      },
+      {
+        "k": "Memori",
+        "v": "RAM 4 GB"
+      },
+      {
+        "k": "Ruang disk",
+        "v": "Sekitar 100 MB untuk aplikasi, ditambah ruang untuk video Anda"
+      },
+      {
+        "k": "Panel tersembunyi",
+        "v": "Windows 10 versi 2004 (build 19041) atau lebih baru"
+      },
+      {
+        "k": "Internet",
+        "v": "Tidak diperlukan"
+      }
+    ],
+    "changelogTitle": "Yang baru",
+    "changelog": [
+      {
+        "ver": "2.1.0",
+        "date": "2026-10-12",
+        "points_html": "Baru: 5 bahasa di aplikasi dan installer<br>Baru: rekam terjadwal, preset, spotlight, webcam lewat FFmpeg<br>Baru: alat potong / kompres / GIF / audio<br>Perbaikan: “Not Responding” saat memilih folder simpan<br>Perbaikan: jendela bisa diubah ukuran dan ada pengaturan ukuran tampilan<br>Jauh lebih kecil: tanpa OpenCV dan FFmpeg versi ramping"
+      },
+      {
+        "ver": "2.0.0",
+        "date": "2026-10-11",
+        "points_html": "Antarmuka baru dan animasi startup<br>Panel mengambang tersembunyi, overlay webcam, tombol keyboard, dan watermark"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Pertanyaan yang sering diajukan",
+    "sub": "Jawaban singkat dan jujur.",
+    "items": [
+      {
+        "q": "Apakah ProRec benar-benar gratis?",
+        "a": "Ya. ProRec adalah freeware: gratis untuk penggunaan pribadi, pendidikan, dan komersial, tanpa watermark, tanpa iklan, dan tanpa batas waktu."
+      },
+      {
+        "q": "Apakah aman dipasang?",
+        "a": "ProRec tidak memiliki telemetri dan komponennya dicantumkan secara terbuka. Karena aplikasi baru tanpa sertifikat code-signing berbayar, Windows SmartScreen mungkin menampilkan peringatan. Verifikasi checksum SHA-256 di halaman ini, lalu pilih More info → Run anyway."
+      },
+      {
+        "q": "Bisa merekam game?",
+        "a": "ProRec memakai penangkapan GDI, jadi sebagian game DirectX/OpenGL dengan fullscreen eksklusif bisa terekam hitam. Jalankan game dalam mode jendela atau borderless, atau rekam jendelanya. Aplikasi desktop, browser, Office, dan sesi Remote Desktop aman."
+      },
+      {
+        "q": "Apakah jalan di Remote Desktop atau tanpa GPU?",
+        "a": "Ya. Penangkapan memakai GDI dan encoding berjalan di CPU. Jangan minimize atau putuskan jendela RDP saat merekam, dan aktifkan Remote Audio jika ingin suara."
+      },
+      {
+        "q": "Kenapa panel kontrol tidak terlihat di video saya?",
+        "a": "Panel mengambang dikecualikan dari penangkapan layar oleh Windows sendiri (Windows 10 versi 2004 atau lebih baru). Di versi yang lebih lama panel dimatikan otomatis dan Anda bisa memakai hotkey."
+      },
+      {
+        "q": "Apakah butuh koneksi internet?",
+        "a": "Tidak. Installer berisi semua bahasa dan aplikasi berjalan offline. Satu-satunya permintaan jaringan adalah tombol opsional “Cek pembaruan”."
+      },
+      {
+        "q": "Bagaimana memverifikasi unduhan saya?",
+        "a": "Buka Command Prompt, jalankan certutil -hashfile pada installer dengan SHA256, lalu bandingkan hasilnya dengan checksum di halaman ini."
+      },
+      {
+        "q": "Bagaimana mengganti bahasa?",
+        "a": "Anda memilihnya di awal installer. Setelahnya, buka Pengaturan → Bahasa: Bahasa Indonesia, English, Español, Français, atau 日本語."
+      },
+      {
+        "q": "Di mana video disimpan?",
+        "a": "Secara default di Videos\\ProRec. Folder bisa diubah di Pengaturan → Penyimpanan."
+      },
+      {
+        "q": "Ada versi untuk Mac atau Linux?",
+        "a": "Belum. ProRec dibuat untuk Windows 10 dan 11 (64-bit)."
+      }
+    ]
+  },
+  "community": {
+    "title": "Kanal resmi",
+    "sub": "Ikuti ProRec dan XYCoolcraft hanya lewat akun di bawah ini.",
+    "text": "Website ini adalah rumah resmi ProRec. Unduh installer hanya dari halaman ini atau dari halaman GitHub Releases yang ditautkan.",
+    "note": "Waspadai salinan di situs unduhan pihak ketiga — bisa saja usang atau sudah dimodifikasi."
+  },
+  "footer": {
+    "tagline": "Perekam layar gratis untuk Windows.",
+    "rights": "XYCoolcraft. ProRec adalah freeware. Semua merek dagang milik pemiliknya masing-masing.",
+    "license": "Lisensi",
+    "notices": "Pemberitahuan pihak ketiga"
+  },
+  "notfound": {
+    "title": "Halaman tidak ditemukan",
+    "text": "Halaman yang Anda cari tidak ada atau sudah dipindahkan.",
+    "back": "Kembali ke ProRec"
+  }
+}

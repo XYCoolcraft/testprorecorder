@@ -1,0 +1,25 @@
+{
+  "name": "ProRec",
+  "creator": "XYCoolcraft",
+  "url": "https://prorec.vercel.app",
+  "version": "2.1.0",
+  "releaseDate": "2026-10-12",
+  "downloadUrl": "https://github.com/XYCoolcraft/ProRec/releases/latest/download/ProRec-Setup-2.1.0.exe",
+  "portableUrl": "https://github.com/XYCoolcraft/ProRec/releases/latest/download/ProRec-Portable-2.1.0.zip",
+  "releasesUrl": "https://github.com/XYCoolcraft/ProRec/releases",
+  "installerFile": "downloads/ProRec-Setup-2.1.0.exe",
+  "sizeMB": 30,
+  "sizeEstimated": true,
+  "sha256": "",
+  "googleVerification": "",
+  "bingVerification": "",
+  "defaultLanguage": "id",
+  "languages": ["id", "en"],
+  "socials": [
+    { "name": "YouTube",   "url": "https://www.youtube.com/@XYCoolcraft" },
+    { "name": "GitHub",    "url": "https://github.com/XYCoolcraft" },
+    { "name": "Instagram", "url": "https://www.instagram.com/xycoolcraft" },
+    { "name": "TikTok",    "url": "https://www.tiktok.com/@xycoolcraft" },
+    { "name": "Discord",   "url": "https://discord.gg/xycoolcraft" }
+  ]
+}

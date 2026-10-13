@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="{{lang}}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>{{t.meta.title}}</title>
+<meta name="description" content="{{t.meta.description}}">
+<meta name="keywords" content="{{t.meta.keywords}}">
+<meta name="author" content="{{site.creator}}">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+<meta name="theme-color" content="{{themeColor}}">
+<meta name="color-scheme" content="dark">
+<link rel="canonical" href="{{canonical}}">
+{{{hreflangs}}}
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/svg+xml" href="/assets/img/logo.svg">
+<link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{site.name}}">
+<meta property="og:title" content="{{t.meta.ogTitle}}">
+<meta property="og:description" content="{{t.meta.ogDescription}}">
+<meta property="og:url" content="{{canonical}}">
+<meta property="og:image" content="{{ogImage}}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="{{ogLocale}}">
+{{{ogLocaleAlt}}}
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{t.meta.ogTitle}}">
+<meta name="twitter:description" content="{{t.meta.ogDescription}}">
+<meta name="twitter:image" content="{{ogImage}}">
+{{#if googleVerification}}<meta name="google-site-verification" content="{{googleVerification}}">{{/if}}
+{{#if bingVerification}}<meta name="msvalidate.01" content="{{bingVerification}}">{{/if}}
+<link rel="preload" as="image" href="/assets/img/rec.{{lang}}.webp" fetchpriority="high">
+<link rel="stylesheet" href="{{assets.css}}">
+{{{jsonld}}}
+</head>
+<body>
+<a class="skip" href="#main">{{t.skip}}</a>
+
+<header class="site-header" id="top">
+  <div class="wrap bar">
+    <a class="brand" href="#top" aria-label="{{site.name}}">
+      <img src="/assets/img/logo.svg" width="30" height="30" alt=""><span>{{site.name}}</span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Main">
+      <a href="#features">{{t.nav.features}}</a>
+      <a href="#preview">{{t.nav.preview}}</a>
+      <a href="#proof">{{t.nav.proof}}</a>
+      <a href="#compare">{{t.nav.compare}}</a>
+      <a href="#faq">{{t.nav.faq}}</a>
+      <a href="#community">{{t.nav.community}}</a>
+    </nav>
+    <div class="actions">
+      <a class="lang" href="{{switchHref}}" aria-label="{{switchLabel}}"><span>{{{ic.globe}}}</span>{{switchCode}}</a>
+      <a class="btn primary sm" href="#download">{{t.nav.download}}</a>
+      <button class="menu" id="menu" type="button" aria-label="{{t.nav.menu}}" aria-controls="nav" aria-expanded="false">{{{ic.menu}}}</button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+<section class="hero">
+  <div class="orb o1" aria-hidden="true"></div><div class="orb o2" aria-hidden="true"></div><div class="grid-bg" aria-hidden="true"></div>
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow">{{t.hero.eyebrow}}</p>
+      <h1>{{{t.hero.title_html}}}</h1>
+      <p class="lead">{{t.hero.sub}}</p>
+      <div class="cta">
+        <a class="btn primary xl" href="#download">{{{ic.download}}}<span>{{t.cta.download}}</span></a>
+        <a class="btn ghost xl" href="#preview"><span>{{t.cta.preview}}</span>{{{ic.arrow}}}</a>
+      </div>
+      <ul class="badges">{{#each t.hero.badges}}<li>{{{ic.check}}}{{this}}</li>{{/each}}</ul>
+    </div>
+    <div class="hero-visual" id="tilt">
+      <div class="frame glow">
+        <div class="frame-bar"><i></i><i></i><i></i><span>{{site.name}}</span></div>
+        <img src="/assets/img/rec.{{lang}}.webp" width="1080" height="700" alt="{{t.hero.alt}}" fetchpriority="high" decoding="async">
+      </div>
+      {{#each t.hero.chips}}<span class="chip chip-{{n}}">{{this}}</span>{{/each}}
+    </div>
+  </div>
+  <div class="wrap">
+    <dl class="stats">{{#each t.stats}}<div class="stat"><dt>{{this.l}}</dt><dd>{{this.v}}</dd></div>{{/each}}</dl>
+  </div>
+</section>
+
+<section class="sec" id="features">
+  <div class="wrap">
+    <header class="sec-head reveal"><h2>{{t.features.title}}</h2><p>{{t.features.sub}}</p></header>
+    <div class="cards">
+      {{#each t.features.items}}<article class="card reveal">{{{this.svg}}}<h3>{{this.title}}</h3><p>{{this.text}}</p></article>{{/each}}
+    </div>
+  </div>
+</section>
+
+<section class="sec alt" id="preview">
+  <div class="wrap">
+    <header class="sec-head reveal"><h2>{{t.preview.title}}</h2><p>{{t.preview.sub}}</p></header>
+    <div class="tabs reveal" role="tablist" aria-label="{{t.preview.title}}">
+      {{#each t.preview.tabs}}<button type="button" role="tab" id="tab-{{this.key}}" aria-controls="panel-{{this.key}}" aria-selected="{{this.selected}}" tabindex="{{this.tabindex}}" data-tab="{{this.key}}">{{this.label}}</button>{{/each}}
+    </div>
+    <div class="stage reveal">
+      {{#each t.preview.tabs}}<figure class="shot" role="tabpanel" id="panel-{{this.key}}" aria-labelledby="tab-{{this.key}}" {{#if this.first}}{{else}}hidden{{/if}}>
+        <div class="frame glow"><div class="frame-bar"><i></i><i></i><i></i><span>{{site.name}}</span></div>
+        <img src="{{this.img}}" width="1080" height="700" alt="{{this.alt}}" {{#if this.first}}{{else}}loading="lazy"{{/if}} decoding="async"></div>
+        <figcaption>{{this.caption}}</figcaption>
+      </figure>{{/each}}
+    </div>
+    <div class="splash-card reveal">
+      <img src="/assets/img/splash.webp" width="560" height="330" loading="lazy" decoding="async" alt="{{t.preview.splashAlt}}">
+      <div><h3>{{t.preview.splashTitle}}</h3><p>{{t.preview.splashText}}</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="proof">
+  <div class="wrap">
+    <header class="sec-head reveal"><h2>{{t.proof.title}}</h2><p>{{t.proof.sub}}</p></header>
+    <div class="cards four">
+      {{#each t.proof.items}}<article class="card reveal">{{{this.svg}}}<h3>{{this.title}}</h3><p>{{this.text}}</p></article>{{/each}}
+    </div>
+    <div class="hashbox reveal">
+      <h3>{{t.proof.checksumTitle}}</h3>
+      {{#if site.hasSha}}<div class="hashrow"><code id="sha" tabindex="0">{{site.sha256}}</code><button type="button" class="btn ghost sm" data-copy="#sha" data-done="{{t.proof.copied}}">{{{ic.copy}}}<span>{{t.proof.copy}}</span></button></div>{{else}}<p class="muted">{{t.proof.checksumEmpty}}</p>{{/if}}
+      <p class="muted">{{t.proof.checksumHow}}</p>
+      <pre class="cmd"><code>certutil -hashfile {{site.installerName}} SHA256</code></pre>
+    </div>
+  </div>
+</section>
+
+<section class="sec alt" id="compare">
+  <div class="wrap">
+    <header class="sec-head reveal"><h2>{{t.compare.title}}</h2><p>{{t.compare.sub}}</p></header>
+    <div class="table-wrap reveal">
+      <table class="compare">
+        <thead><tr><th scope="col">{{t.compare.colFeature}}</th><th scope="col" class="us">{{t.compare.colA}}</th><th scope="col">{{t.compare.colB}}</th></tr></thead>
+        <tbody>
+          {{#each t.compare.rows}}<tr><th scope="row">{{this.label}}</th>
+            <td class="us"><span class="ok">{{{ic.check}}}</span>{{this.a}}</td>
+            <td>{{#if this.bMid}}<span class="mid">–</span>{{/if}}{{#if this.bOk}}<span class="ok">{{{ic.check}}}</span>{{/if}}{{#if this.bNo}}<span class="no">{{{ic.x}}}</span>{{/if}}{{this.b}}</td></tr>{{/each}}
+        </tbody>
+      </table>
+    </div>
+    <p class="fine">{{t.compare.note}}</p>
+  </div>
+</section>
+
+<section class="sec" id="download">
+  <div class="wrap">
+    <div class="dl reveal">
+      <div class="dl-main">
+        <h2>{{t.download.title}}</h2>
+        <p>{{t.download.sub}}</p>
+        <div class="cta">
+          <a class="btn primary xl" href="{{site.downloadUrl}}" rel="noopener" data-dl>{{{ic.download}}}<span>{{t.download.button}}</span></a>
+          {{#if site.hasPortable}}<a class="btn ghost xl" href="{{site.portableUrl}}" rel="noopener"><span>{{t.download.portable}}</span></a>{{/if}}
+        </div>
+        <ul class="meta"><li>v{{site.version}}</li><li>{{site.sizeText}}</li><li>Windows 10/11 x64</li><li>{{t.download.langs}}</li></ul>
+        <p class="note" id="os-note" hidden>{{t.download.osNote}}</p>
+      </div>
+      <div class="dl-steps">
+        <h3>{{t.download.stepsTitle}}</h3>
+        <ol class="steps">{{#each t.download.steps}}<li><b>{{this.title}}</b><span>{{this.text}}</span></li>{{/each}}</ol>
+      </div>
+    </div>
+    <aside class="info reveal"><h3>{{t.download.smartTitle}}</h3><p>{{t.download.smartText}}</p></aside>
+    <div class="two">
+      <div class="reveal"><h3 class="h-sm">{{t.download.specsTitle}}</h3>
+        <dl class="specs">{{#each t.download.specs}}<div><dt>{{this.k}}</dt><dd>{{this.v}}</dd></div>{{/each}}</dl></div>
+      <div class="reveal"><h3 class="h-sm">{{t.download.changelogTitle}}</h3>
+        {{#each t.download.changelog}}<article class="log"><header><b>v{{this.ver}}</b><time datetime="{{this.date}}">{{this.date}}</time></header><p>{{{this.points_html}}}</p></article>{{/each}}</div>
+    </div>
+  </div>
+</section>
+
+<section class="sec alt" id="faq">
+  <div class="wrap narrow">
+    <header class="sec-head reveal"><h2>{{t.faq.title}}</h2><p>{{t.faq.sub}}</p></header>
+    <div class="faq reveal">
+      {{#each t.faq.items}}<details><summary>{{this.q}}</summary><div class="ans"><p>{{this.a}}</p></div></details>{{/each}}
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="community">
+  <div class="wrap narrow center">
+    <header class="sec-head reveal"><h2>{{t.community.title}}</h2><p>{{t.community.sub}}</p></header>
+    <div class="socials reveal">{{#each socials}}<a class="soc" href="{{this.url}}" target="_blank" rel="me noopener">{{this.name}}{{{ic.arrow}}}</a>{{/each}}</div>
+    <p class="muted reveal">{{t.community.text}}</p>
+    <p class="fine reveal">{{t.community.note}}</p>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap foot">
+    <div class="foot-brand"><img src="/assets/img/logo.svg" width="28" height="28" alt=""><div><b>{{site.name}}</b><span>{{t.footer.tagline}}</span></div></div>
+    <p>© {{year}} {{t.footer.rights}}</p>
+    <p class="foot-links"><a href="{{site.releasesUrl}}" rel="noopener">GitHub Releases</a><a href="{{switchHref}}">{{switchLabel}}</a></p>
+  </div>
+</footer>
+<script src="{{assets.js}}" defer></script>
+</body>
+</html>
